@@ -31,6 +31,9 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 
+	// jakarta
+	compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
+
 	// PostgreSQL
 	runtimeOnly 'org.postgresql:postgresql'
 
